@@ -20,41 +20,148 @@
 		local store
 		cache
 	</pre>
+	<p>
 
 	History
 	Tim Berners-Lee invented = > www in 1989
 	1990s from 1991 to
 	1998, HTML developed from version 1 to version 4.
-	World Wide Web Consortium (W3C) recommended XHTML  1.0.
+	World Wide Web Consortium (W3C) recommended XHTML  1.0. 
+	WHATWG ( the web Hypertext Application Technology group) was formed in 
+	response to slow W3 development, and W3C's decision to close down the development of HTML, in favor of XHTML.
+
+	In 2006, W3C announced that they would support WHATWG. In 2008, the first HTML5
+	piblic draft was released. In 2012, WHATWG and W#C decided on a separation:
+	HTML5 Browser Support
+	We can teach old browsers to handle HTML5
+	Define HTML5 elements as Block Elements
+	HTML5 defines 8 new semantic HTML elememts. All these are block level elements.
+	To secure correct behaviour in older browsers, you can set the CSS display property to block:
+
+</p>
 
 	<h2> Sementic Elements </h2>
 	<pre>
-       <article>
-       <aside>
-       <details>
-       <figcaption>
-       <figure>
-       <footer>
-       <header>
-       <main>
-       <mark>
-       <nav>
-       <section>
-       <summary>
-       <time>
+       article
+       aside
+       detals
+       figcaption
+       figure
+       footer
+       header
+       main
+       mark
+       nav
+       section
+       summary
+       time
 </pre>
-<h3>Article Example</h3>
+<pre>
+<h3><b><U>Article Example</U></b></h3>
+<p><mark>Defines a article</mark></p>
 <article>
-   <h4>News heading name</h4>
+   <h4>News heading name 1</h4>
    <p>
-   	   
+
     All HTML elements can have attributes
     Attributes provide additional information about elements
     Attributes are always specified in the start tag
     Attributes usually come in name/value pairs like: name="value"
+</p>
+</article>
+</pre>
+<h5><b><u><big>Details example:</big></u></b></h5>
+<p><mark>Represents a widget from which the user can obtain additional information or controls on-demand.</mark></p>
+
+<details>
+	<summary>Bit class</summary>
+	<p> BIT 4th  has around 25 students.
+	</p>
+</details>
 
 
+<h6>figcaption and figure example</h6>
+<figure>
+    <img src="tika.jpg" alt="Dashain Tika">
+    <figcaption>Dashain - A festival of hindus</figcaption>
+</figure>
+<h7><b><U> <big>Header Example:</big></U></b></h7>
+<p>
 
+<mark>The header element represents the header of a document or a section. A header should contain title and heading information about the related content.</mark></p>
+
+<header>
+    <h1>College of Information Technology and Engineering</h1>
+    <nav>
+        <p><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a></p>
+    </nav>
+</header>
+
+
+<h8><b><U>Main Example :</U></b></h8>
+<p><mark>Represents the main or dominant content of the document.</mark></p>
+ <main>
+        <h1>Core Web Technologies</h1>
+        <p>HTML and CSS are two of the core technologies for building web pages.</p>
+        <article>
+            <h2>What is HTML?</h2>
+            <p>HTML stands for HyperText Markup Language. HTML is the standard markup language for describing the structure of web pages.</p>
+        </article>
+        <article>
+            <h2>What is CSS?</h2>
+            <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for HTML elements such as colors, backgrounds, fonts etc.</p>
+        </article>
+    </main>
+
+    <h9> <b><U><big>Mark Example: </big></U></b> :</h9>
+
+    <p> <mark>	Represents text highlighted for reference purposes.</mark></p>
+
+    <p>This is some <mark>highlighted</mark> text.</p>
+	<p>Here are <mark>some more highlighted</mark> text.</p>
+
+	<h11><b><u><big>nav example:</big></u></b>
+		<p>Defines a section of navigation links.</p>
+		<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">faculties</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<h10><b><u><big>Section Example:</big></u></b></h10>
+	<p><mark>Defines a section of a document, such as header, footer etc.</mark></p>
+	<section>
+    <h1>Welcome to the website College of Information Technology and Engineering</h1>
+    <p>Welcome and thank you for taking the time to visit our website.</p>
+    <p> For further information, please feel free to contact us.</p>
+
+</section>
+<h11><b><u><big>Summary example:</big></u></b></h11>
+<p><mark>Defines a summary for the tag-details element.</mark></p>
+<details>
+    <summary>What faculties does CITE provides?</summary>
+    <p>CITE provides:</p>
+   <p>-BIT</p>
+    <p>- BCA</p>
+   <p> - BBA</p>
+    <p>-Be.Com.</p>
+</details>
+
+<h12><b><u><big>Time example:</big></u></b></h12>
+<p>Represents a time and/or date.</p>
+<p>Class starts <time>6:30 am</time> every morning.</p>
+	
+<h13><b><U><big>footer example :</big></U></b></h13>
+<p><mark>The footer element represents the footer of a document or a section.</mark></p>
+<footer>
+    <nav>
+        <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+    </nav>
+    <p>Copyright © 2020 CITE.BIT4th/<mark>jeena</mark></p>
+</footer>
 
 
 	</body>
